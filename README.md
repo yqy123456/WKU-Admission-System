@@ -1,5 +1,21 @@
 # WKU International Online Admission Management System
 
+**CPS3962 Group Project · PHP / MySQL · Application Workflow**
+
+[Setup](#12-installation-and-running-guide) · [Test record](docs/Test_Record.md) · [Group contributions](docs/Group_Contribution.md)
+
+## Project Context and My Contribution
+
+This repository is a fork of the collaborative
+[WKU Admission System](https://github.com/EthanYixuanMi/WKU-Admission-System).
+The four-person project is shared work. The existing contribution record lists
+Qiyang Yu's responsibilities as the student application module, document upload
+workflow, email notification testing, screenshot evidence collection, and final
+presentation preparation. See the [full group record](docs/Group_Contribution.md).
+
+The tests below are historical classroom records. This documentation update did
+not rerun the server, database, upload workflow, or SMTP delivery.
+
 A PHP/MySQL web-based admission management system for international student applications at Wenzhou-Kean University.
 
 This project is developed as a CPS3962 final project MVP and is designed to run directly in **WampServer**. It supports student application submission, document upload, officer review, application status tracking, notifications, and admin-level management.
@@ -391,7 +407,7 @@ This MVP includes several basic security practices:
 
 Possible future improvements include:
 
-- Live SMTP email delivery
+- More robust SMTP delivery retries and operational monitoring
 - PDF export for admission reports
 - Advanced search and filtering for officers
 - Admin account suspension
@@ -407,6 +423,6 @@ It is ready for classroom demonstration using the provided demo accounts.
 
 ---
 
-## 22. License
+## 23. License
 
-This project is developed for academic coursework.
+See the existing [LICENSE](LICENSE). This is a collaborative academic project; retain upstream attribution.
